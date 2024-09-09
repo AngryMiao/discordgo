@@ -18,12 +18,12 @@ var APIVersion = "9"
 
 // Known Discord API Endpoints.
 var (
-	EndpointStatus     = "https://status.discord.com/api/v2/"
+	EndpointStatus     = "http://proxy.angrymiao.com/status.discord.com/api/v2/"
 	EndpointSm         = EndpointStatus + "scheduled-maintenances/"
 	EndpointSmActive   = EndpointSm + "active.json"
 	EndpointSmUpcoming = EndpointSm + "upcoming.json"
 
-	EndpointDiscord        = "https://discord.com/"
+	EndpointDiscord        = "http://proxy.angrymiao.com/discord.com/"
 	EndpointAPI            = EndpointDiscord + "api/v" + APIVersion + "/"
 	EndpointGuilds         = EndpointAPI + "guilds/"
 	EndpointChannels       = EndpointAPI + "channels/"
@@ -34,7 +34,7 @@ var (
 	EndpointStickers       = EndpointAPI + "stickers/"
 	EndpointStageInstances = EndpointAPI + "stage-instances"
 
-	EndpointCDN             = "https://cdn.discordapp.com/"
+	EndpointCDN             = "http://proxy.angrymiao.com/cdn.discordapp.com/"
 	EndpointCDNAttachments  = EndpointCDN + "attachments/"
 	EndpointCDNAvatars      = EndpointCDN + "avatars/"
 	EndpointCDNIcons        = EndpointCDN + "icons/"
